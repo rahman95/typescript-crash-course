@@ -1,0 +1,21 @@
+var userName;
+var userAge;
+var isStudent;
+userName = "rahman95";
+userAge = 24;
+isStudent = false;
+var anyVar;
+anyVar = "string";
+anyVar = 12;
+anyVar = true;
+var strArray;
+var anotherStrArray;
+strArray = ["hello", "world"];
+anotherStrArray = ["world", "hello"];
+var numArray;
+var anotherNumArray;
+numArray = [1, 2, 3];
+anotherNumArray = [4, 5, 6];
+var strNumBoolTuple;
+strNumBoolTuple = [userName, userAge, isStudent];
+//# sourceMappingURL=types.js.map
