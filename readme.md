@@ -36,6 +36,6 @@ We can check and assign variable, parameter and function types.
 - Any
 - Void
 - Null
-- Tuple // array with fixed number of values
+- Tuple // array with fixed values
 - Enum
 - Generics
