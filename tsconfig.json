@@ -3,7 +3,9 @@
         "noImplicitAny": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "types" : ["node"]
+        "types" : ["node"],
+        "outDir": "src/dist",
+        "target": "es6"
     },
     "include": [
         "src/**/*"

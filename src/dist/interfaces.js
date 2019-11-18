@@ -1,14 +1,14 @@
 function showTodo(todo) {
-    return todo.title + ": " + todo.text;
+    return `${todo.title}: ${todo.text}`;
 }
 function showAllTodos(todos) {
-    return todos.map(function (todo) { return showTodo(todo); });
+    return todos.map(todo => showTodo(todo));
 }
-var myTodo = {
+let myTodo = {
     title: "Learn TS",
     text: "Learn some more TypeScript"
 };
-var allMyTodos = [
+let allMyTodos = [
     {
         title: "Learn Terraform",
         text: "Dive into Terraform learning"

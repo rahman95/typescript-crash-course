@@ -6,9 +6,9 @@ sum(1, 5); // 6
 // arguments with nullable type and string return
 function fullName(firstName, lastName, nickname) {
     if (typeof nickname === "undefined") {
-        return firstName + " " + lastName;
+        return `${firstName} ${lastName}`;
     }
-    return firstName + " (" + nickname + ") " + lastName;
+    return `${firstName} (${nickname}) ${lastName}`;
 }
 fullName("Rahman", "Younus"); // Rahman Younus
 fullName("John", "Doe", "JD"); // John (JD) Doe
