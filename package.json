@@ -1,0 +1,22 @@
+{
+  "name": "typescript-crash-course",
+  "version": "1.0.0",
+  "description": "## What is it? - Superset of Javascript developed by Microsoft - Compiles back to plain Javascript - Can integrate with JS projects - Designed for development of larger apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahman95/typescript-crash-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahman95/typescript-crash-course/issues"
+  },
+  "homepage": "https://github.com/rahman95/typescript-crash-course#readme",
+  "devDependencies": {
+    "tsc": "^1.20150623.0"
+  }
+}
