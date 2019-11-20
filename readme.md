@@ -1,4 +1,4 @@
-# Typescript Crash Course
+# Typescript Crash Course 📝💥
 
 ## What is it?
 - Superset of Javascript developed by Microsoft
